@@ -1,0 +1,284 @@
+/*
+ start main
+*/
+.secpadding{
+  padding: 25px 0;
+}
+.secheading{
+font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+ width:95%;
+ margin:auto;   
+}
+/*
+ end main
+*/
+
+/*
+strat navbar
+*/
+.nav{
+overflow: hidden; /* to now or recognize divs inside navbar*/
+position: fixed;
+z-index: 100;
+background: white;
+border-bottom:1px solid #eee ;
+width: 100%;
+}
+ .left{
+float:left;
+}
+  .left h1{
+ font-weight: 100;
+ font-size: 30px;
+ margin-top: 20px;
+ color:hotpink;   
+} 
+ .left h1 span{
+font-weight: bold;
+font-size: 30px;
+color:hotpink;
+}
+ .right{
+ float: right;
+ padding:30px ;
+}
+.right a{
+text-decoration: none;
+padding:5px;
+color:hotpink;
+font-size:20px;
+}
+.right a:hover{
+color:powderblue;
+}
+/*
+end navbar
+*/
+
+/*
+start header after navbar
+*/
+.header{
+ padding: 0;
+ margin:0;   
+ position: relative;
+background-image: url("../images/img3.jpg");
+height:100vh ;
+background-size: cover;
+}
+.header h2{
+font-weight: 200;
+font-size: 70px;
+color:hotpink;
+position: absolute;
+top:40%;
+right:35%;
+margin-right: auto;
+}
+.header h2 span{
+ font-weight: bold;  
+ font-size:70px; 
+}
+.header h2 span:hover{
+background:pink;
+color:white;
+}
+/*
+end header after navbar
+*/
+
+/*
+start projects
+*/
+
+.itm1{
+ color:black;
+ display: inline-block;
+ padding: 5px;
+ margin-right: 20px;
+ margin-left: 0px;
+ margin-bottom: 20px;
+ background-image: url("../images/img6.jpg");
+background-size: cover;
+ height: 200px;
+  width: 320px;
+}
+.itm2{
+  color: black;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-image: url("../images/img11.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 320px;
+ }
+ .itm3{
+  color: black;
+  display: inline-block;
+  background-image: url("../images/img4.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 320px;
+  padding: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+ }
+ .itm4{
+  color: black;
+  display: inline-block;
+  padding: 5px;
+  background-image: url("../images/img5.jpg");
+  height: 200px;
+  width: 320px;
+  background-size: cover;
+  margin-right: 0px;
+  margin-bottom: 20px;
+ }
+ .itm5{
+  color: black;
+  display: inline-block;
+  background-image: url("../images/img11.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 320px;
+  padding: 5px;
+  margin-right: 20px;
+  margin-left: 0px;
+ }
+ .itm6{
+  color: black;
+  display: inline-block;
+  background-image: url("../images/img6.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 320px;
+  padding: 5px;
+  margin-right: 20px;
+ }
+ .itm7{
+  color:black;
+  display: inline-block;
+  background-image: url("../images/img5.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 320px;
+  padding:5px;
+  margin-right: 20px;
+ }
+ .itm8{
+  color: black;
+  display: inline-block;
+  background-image: url("../images/img4.jpg");
+  background-size: cover;
+  height: 200px;
+  width:320px ;
+  padding: 5px;
+  margin-right: 0px;
+ }
+/*
+end projects
+*/
+
+/*
+start About
+*/
+.about .container p{
+  font-size: 20px;
+  padding-bottom: 45px;
+}
+ .about .container .conItem div{ 
+  display: inline-block;
+width:23%;
+margin: 10px;
+}
+.about .container .conItem div img{
+  width:100%;
+}
+.about .container .conItem div h4{
+font-size: 35px;
+margin: 15px 0;  
+}
+.about .container .conItem div span{
+  font-size: 20px;
+  color: #b4b4b4;
+}
+.about .container .conItem div p{
+  font-size: 20px;
+  margin: 25px 0;
+}
+.about .container .conItem div button{
+  border: none;
+  font-size: 20px;
+  padding :12px;
+  width:100%;
+  color:white;
+  background: pink;
+
+}
+    
+/*
+end About
+*/
+
+/*
+start contact
+*/
+.contact form p{
+  font-size: 20px;
+}
+.contact form input{
+  display: block;
+  font-size: 25px;
+  margin: 15px 0;
+  padding:10px 0 10px 15px;
+  width:100%;
+}
+.contact form button{
+  font-size: 20px;
+  border: none;
+  color: white;
+  background:pink;
+  padding :10px 20px;
+}
+/*
+end contact
+*/
+
+/*
+start image
+*/
+.image img{
+  width: 100%;
+}
+/*
+end image
+*/
+
+/*
+start footer
+*/
+.footer{
+background: black;  
+}
+.footer h3{
+  font-size: 40px;
+  color:hotpink;
+  text-align: center;
+ padding:40px;
+}
+/*
+end footer
+*/
